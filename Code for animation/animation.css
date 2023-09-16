@@ -1,0 +1,31 @@
+body{
+    background-image:url("https://cdn.pixabay.com/photo/2016/01/08/11/57/butterflies-1127666__340.jpg") ;
+    background-size:1550px 900px;
+    background-repeat:no-repeat ;
+}
+
+
+.img-fluid{
+    margin-top:200px ;
+    height:400px;
+    animation-name:pmc;
+    animation-duration:20s ;
+    animation-delay:2s ;
+    animation-iteration-count:infinite ;
+    animation-direction:alternate;
+    transform:scale(0.2);
+    
+
+}
+@keyframes pmc{
+0%{
+
+        transform: translateX(0%) scale(0.2);
+        
+    }
+
+    100%{
+
+        transform: translateX(100%) rotate(90deg) scale(0.2) ;
+        
+    }}
