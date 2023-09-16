@@ -1,0 +1,33 @@
+body{
+    background-image:url("https://cdn.pixabay.com/photo/2020/05/08/14/00/lake-como-5145917_960_720.jpg") ;
+    background-size:1550px 800px;
+    background-repeat:no-repeat ;
+    background-position:fixed ;
+}
+
+
+
+.img-fluid{
+    margin-top:200px ;
+    height:400px;
+    color: blue;
+    animation-name:pmc;
+    animation-duration:20s ;
+    animation-delay:2s ;
+    animation-iteration-count:infinite ;
+    animation-direction:alternate;
+
+
+}
+@keyframes pmc{
+0%{
+
+        transform: translateX(0%) ;
+        
+    }
+
+    100%{
+
+        transform: translateX(100%)  scale(0.2) ;
+        
+    }}
