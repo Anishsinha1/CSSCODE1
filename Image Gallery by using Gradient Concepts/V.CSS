@@ -1,0 +1,21 @@
+.hello{
+    border-width:14px;
+    border-style: dashed; 
+    border-image:repeating-radial-gradient(black,red,white ,blue,violet.3%,green,pink)1;
+    width:1450px;
+    height:670px;
+    background-image:repeating-radial-gradient( orange,red);
+    
+}
+.img-fluid{
+ width:100%;
+ height:200px;
+ border-width:7px;
+ border-style: dashed; 
+ border-image:repeating-radial-gradient(black,red,white ,blue,violet,yellow)1;
+ 
+ 
+}
+body{
+    background-image: repeating-radial-gradient(white,red,yellow);
+}
