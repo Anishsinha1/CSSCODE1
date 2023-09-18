@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+body{
+font-family: 'Moon Dance', cursive;
+
+}
+.mt{
+    border:5px dotted rgb(240, 235, 235);
+    margin-top: 50px;
+    background-color: royalblue;
+    border-radius:45px;
+    width:98.9%;
+
+}
+.col-md-3{
+    border:2px solid greenyellow;
+}
+
+
+.gif{
+    border:10px solid rgb(22, 17, 17) ;
+    box-shadow: 1px 1px 6px 2px rgb(218, 213, 213);
+    height:200px;
+    width:200px;
+    background-image:repeating-conic-gradient(black 0deg 10deg,yellow 10deg 15deg);
+   background-size:20px 20px;
+   cursor:pointer;
+   margin:18px;
+
+}
+.gir{
+    border:10px solid black;
+    box-shadow:1px 1px 6px 2px rgb(238, 232, 232);
+    height:200px;
+    width:200px;
+    background-image:repeating-radial-gradient(red 0% 1.5%,green 1.5% 3%,yellow 3% 4.5%);
+    cursor:pointer;
+    margin:18px;
+}
+.gir:hover{
+    transform:scale(1.1);
+}
+.gif:hover{
+    transform:scale(1.1);
+}
+.gid:hover{
+    transform:scale(1.1);
+}
+.box:hover{
+    transform:scale(1.1);
+}
+.gid{
+    border:10px solid black;
+    box-shadow: 1px 2px 6px 2px white;
+    height:200px;
+    width:200px;
+    cursor:pointer;
+    background-image:conic-gradient(rgb(43, 179, 16) 0deg 90deg,yellow 90deg 180deg,tomato 180deg 270deg, blue 270deg 360deg);
+    margin:18px;
+   
+}
+.box{
+    width:200px;
+    height:200px;
+    padding:20px;
+    border:10px solid black;
+    box-shadow:1px 1px 6px 2px gainsboro;
+    background-image:repeating-radial-gradient(#ff0000 1.5% 2.5%, #ff7f00 2.5% 3.5% ,#ffff00  3.5% 4.5%,#00ff00 4.5% 5.5%,#0000ff 5.5% 6.5%,#4b0082 6.5% 7.5%,#9400d3 7.5% 8.5%);
+    cursor:pointer;
+    margin:18px;
+}
