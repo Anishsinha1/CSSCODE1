@@ -1,0 +1,22 @@
+body{
+    background-image:repeating-radial-gradient(black.100%,white .200%);
+}
+td,th{
+    border:2px dotted whitesmoke;
+    width:12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size:19px ;
+    padding:6px;
+    
+
+}
+td{
+    text-align: center;
+}
+table{
+    margin-top:67px ;
+    margin-left:350px;
+    background-color: brown;
+}
+
