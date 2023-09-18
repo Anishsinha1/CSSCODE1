@@ -1,0 +1,47 @@
+body{
+    padding-left:30% ;
+    padding-right:32% ;
+    background-image:url("https://www.theleela.com/prod/content/assets/styles/tl_377_500_webp/public/2021-07/The-Leela-Palace-Udaipur-Ceremonial-Rituals-Thumbnail.jpg.webp?VersionId=rIesOCkQvedRToBViKimSyfRSRRHFt1l&itok=Qmv_eh5v") ;
+    background-position:fixed ;
+    background-size:cover ;
+    background-repeat:no-repeat;
+    
+}
+    .menu{
+    border:12px groove royalblue;
+    border-radius:5px ;
+    background-color: darkred;
+    color:white;
+}
+
+menu p{
+    display:inline-block;
+    
+}
+.hi{
+    text-align: left;
+    
+}
+.pi{
+    text-align:right;
+    margin-top:-7% 
+}
+
+.center{
+    height:80px;
+    border:3px dotted white ;
+    border-radius:50% ;
+    padding-left:2px ;
+    width:80px;
+    margin-left:25px ;
+    }
+.text{
+        display: inline-block;
+    }
+.enu{
+    padding-left:15px ;
+    padding-right:15px ;
+}
+.light{
+    margin-left:20px;
+}
